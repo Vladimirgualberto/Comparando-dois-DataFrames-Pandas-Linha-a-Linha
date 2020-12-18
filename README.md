@@ -15,12 +15,12 @@ dfA = pd.read_excel(r"Local do Arquivo A")
   
 dfB = pd.read_excel(r"Local do Arquivo B")
 
-Depois com uma linha simples de comandos conseguimos comparar os dois arquivos(Uma coluna em específico, por exemplo):
+Logo após, com uma linha simples de comandos conseguimos comparar os dois arquivos(Uma coluna em específico, por exemplo):
 
 dfA['Existe Na Central?']=np.where(dfA['Destino'] == dfB['Destino'], 'Existe', 'NãoExiste')
 
 Aqui eu comparo os dois dataframes e defino uma nova coluna para armazena o resultado dessa comparação, no caso escrevo na coluna se existe ou não o número.
 
-Por fim executo um print para verificar o dataframe alterado com a coluna de verificação:
+Por fim, executo um print para verificar o dataframe alterado com a coluna de verificação:
 
 print(dfA)
