@@ -6,6 +6,7 @@ De uma forma bem simples é possível comparar dois arquivos Usando Pandas e Num
 Primeiramente faz-se necessário importar as duas bibliotecas do Python(Pandas e Numpy):
 
 import pandas as pd
+
 import numpy as np
 
 Em seguinda são carregados os dois arquivos copiando os seus respectivos caminhos e armazenando em uma variável, note que eles serão carregados como uma estrutura de dataframe do pandas:
