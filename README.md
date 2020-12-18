@@ -10,8 +10,8 @@ import numpy as np
 
 Em seguinda são carregados os dois arquivos copiando os seus respectivos caminhos e armazenando em uma variável, note que eles serão carregados como uma estrutura de dataframe do pandas:
 
-df = pd.read_excel(r"<Local do Arquivo A>")
-df1 = pd.read_excel(r"<Local do Arquivo B>")
+dfA = pd.read_excel(r"<Local do Arquivo A>")
+dfB = pd.read_excel(r"<Local do Arquivo B>")
 
 Depois com uma linha simples de comandos conseguimos comparar os dois arquivos(Uma coluna em específico por exemplo):
 
