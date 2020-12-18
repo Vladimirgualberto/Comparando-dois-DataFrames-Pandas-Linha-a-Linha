@@ -4,10 +4,10 @@ import numpy as np
 ##Local lib
 
 
-df = pd.read_excel(r"C:\Users\Vladimir\PycharmProjects\comparandoarquivos\comp1central.xlsx")
-df1 = pd.read_excel(r"C:\Users\Vladimir\PycharmProjects\comparandoarquivos\comp2syonet.xlsx")
+dfA = pd.read_excel(r"<Local do Arquivo A>")
+dfB = pd.read_excel(r"<Local do Arquivo B>")
 
 
-df['Existe Na Central?']=np.where(df['Destino'] == df1['Destino'], 'Existe', 'NãoExiste')
+dfA['Existe Na Central?']=np.where(dfA['Destino'] == dfB['Destino'], 'Existe', 'NãoExiste')
 
-print(df)
+print(dfA)
