@@ -15,7 +15,7 @@ dfA = pd.read_excel(r"Local do Arquivo A")
   
 dfB = pd.read_excel(r"Local do Arquivo B")
 
-Logo após, com uma linha simples de comandos conseguimos comparar os dois arquivos(Uma coluna em específico, por exemplo):
+Logo após, com uma linha simples de comandos conseguimos comparar os dois arquivos, linha a linha(Se a primeira linha de uma coluna de A é igual a primeira linha da Coluna de B):
 
 dfA['Existe Na Central?']=np.where(dfA['Destino'] == dfB['Destino'], 'Existe', 'NãoExiste')
 
