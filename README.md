@@ -1,5 +1,5 @@
 # Comparando-dois-DataFrames-Pandas-Procv-Execel-
-Como comparar dois arquivos Utilizando pandas e numpy?
+Como comparar dois arquivos linha a linha Utilizando pandas e numpy?
 
 De uma forma bem simples é possível comparar dois arquivos Usando Pandas e Numpy. A ideia aqui é comparar dois arquivos e verificar se os itens de uma coluna do primeiro arquivo(Arquivo A) é igual a uma coluna de outro arquivo(Arquivo B), o famoso procv do excel. =)
 
